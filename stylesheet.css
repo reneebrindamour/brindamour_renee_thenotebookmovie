@@ -44,8 +44,6 @@ p {
 main {
     flex: 1;
 }
-
-
 /* Start of Navbar styles */
 .navbar {
     display: flex;
@@ -122,12 +120,14 @@ main {
 
     .navbar__menu-icon {
         display: block;
+        font-size:30px;
     }
 
     .navbar__menu-toggle:checked + .navbar__menu-icon + .navbar__nav-links {
         display: flex;
     }
-}
+
+    }
 /* End of Navbar styles */
 
 /* Start of Home Page */
