@@ -143,6 +143,16 @@ main {
     margin-bottom: 60px;
 }
 
+@keyframes flyInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 .hero__content {
     background-color: rgba(255, 255, 255, 0.65);
     color: var(--color-secondary);
@@ -171,17 +181,6 @@ main {
 .hero__button:hover {
     background-color: #1f2a34;
     opacity: 0.80;
-}
-
-@keyframes flyInRight {
-    from {
-        transform: translateX(100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
 }
 
 /* Home Introduction Section */
