@@ -694,13 +694,16 @@ main {
     .cast__flip-container {
         flex-direction: column;
         align-items: center;
+
     }
+}
 
     .cast__flip-box {
         margin-bottom: 20px;
-        margin-right: 0;
+        margin: 25px 0;
+        max-width: 100%;
     }
-}
+
 
 @keyframes flyUp {
     to {
