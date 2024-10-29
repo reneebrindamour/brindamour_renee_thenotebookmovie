@@ -149,7 +149,9 @@ main {
     padding: 30px;
     border: 2px solid var(--color-secondary);
     text-align: center;
-    animation: flyInRight 1s ease-out;
+    animation: flyInRight 1s ease-out forwards; 
+    opacity: 0; 
+    transform: translateX(100%); 
 }
 
 .hero__trailer {
