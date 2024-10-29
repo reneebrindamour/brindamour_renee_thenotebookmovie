@@ -200,7 +200,7 @@ main {
     max-width: 1200px;
     line-height: 1.5;
     font-family: adobe-garamond-pro, serif;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 /* Intro Quote */
@@ -692,7 +692,7 @@ main {
 .cast__flip-box-back p span {
     font-family: adobe-garamond-pro, serif;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 @media(max-width: 1100px) {
