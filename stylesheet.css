@@ -6,8 +6,7 @@
     --color-accent-dark: #479dc8;
 }
 
-/* General Body Styles */
-HTML, body {
+html, body {
     width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
@@ -18,35 +17,34 @@ HTML, body {
     background-color: #f0f0f0; 
 }
 
-h1, h2, p {
-    margin-left: 30px;
-}
-
 h1 {
     font-family: futura-pt, sans-serif;
     font-weight: 700;
-    font-size: 70px; 
-    color: #283c46;
+    font-size: 70px;
+    margin-left: 30px;
+    color: var(--color-secondary);
 }
 
 h2 {
     font-family: adobe-garamond-pro, serif;
     font-weight: 600;
-    font-size: 55px; 
-    color: #283c46;
+    font-size: 55px;
+    margin-left: 30px;
+    color: var(--color-secondary);
 }
 
 p {
     font-family: adobe-garamond-pro, serif;
     font-weight: 400;
     font-size: 26px;
-    color: #283c46;
+    color: var(--color-secondary);
     line-height: 1.5;
 }
 
 main {
     flex: 1;
 }
+
 
 /* Start of Navbar styles */
 .navbar {
@@ -131,48 +129,6 @@ main {
     }
 }
 /* End of Navbar styles */
-
-/* Footer Section */
-.footer {
-    background-color: #6f8da2;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-    margin-top: 60px;
-}
-
-.footer__links {
-    margin-bottom: 10px;
-}
-
-.footer__link {
-    text-decoration: none;
-    color: white;
-    margin: 0 15px;
-    display: inline-block;
-    font-family: futura-pt, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 24px;
-}
-
-.footer__link:hover {
-    text-decoration: none;
-}
-
-@media (max-width: 768px) {
-    .footer__links {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer__link {
-        margin: 10px 0;
-    }
-}
-/* End of Footer Section */
 
 /* Start of Home Page */
 .hero {
@@ -1150,5 +1106,46 @@ main {
         font-size: 24px;
     }
 }
+/* Footer Section */
+.footer {
+    background-color: #6f8da2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.footer__links {
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    display: inline-block;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.footer__link:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__link {
+        margin: 10px 0;
+    }
+}
+/* End of Footer Section */
 
 
