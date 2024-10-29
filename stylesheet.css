@@ -711,8 +711,6 @@ main {
 }
 
 /* End of Cast Page */
-
-
 /* Start of Synopsis Page */
 
 .synopsis__container {
@@ -730,8 +728,9 @@ main {
     text-align: left;
 }
 
-.snyopsis__container p{
+.synopsis__container p{
     text-align: left;
+}
 
 @media (max-width: 1285px) {
     .synopsis__container {
@@ -783,6 +782,7 @@ main {
 }
 
 /* End of Synopsis Page */
+
 /* Start of Awards Page */
 .awardsintroductioncontainer {
     max-width: 1200px;
