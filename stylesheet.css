@@ -1,4 +1,4 @@
-:root {
+: root {
     --color-primary: #6f8da2;
     --color-secondary: #283c46;
     --color-accent-light: #c8ccce;
@@ -7,7 +7,7 @@
 }
 
 /* General Body Styles */
-html, body {
+HTML, body {
     width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
