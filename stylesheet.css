@@ -785,8 +785,7 @@ main {
 /* Start of Awards Page */
 .awardsintroductioncontainer {
     max-width: 1200px;
-    padding: 20px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .header__title {
@@ -964,6 +963,20 @@ main {
 
     .awards__image {
         margin-bottom: 20px;
+    }
+
+    .awards {
+        margin: 35px;
+    }
+
+    .awards__block--right {
+        text-align: center;
+        margin: 0;
+    }
+
+    .awards__block--left {
+        text-align: center;
+        margin: 0;
     }
 
     .header__title {
