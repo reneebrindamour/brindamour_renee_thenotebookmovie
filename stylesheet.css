@@ -968,13 +968,17 @@ main {
     .header__title {
         font-size: 50px;
     }
-
+    
+    .header__paragraph {
+        font-size: 26px
+    }
+    
     .awards-title {
         font-size: 35px;
     }
 
     .awards__details__description {
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .awards__image {
