@@ -722,11 +722,16 @@ main {
 
 .synopsis__title {
     margin: 30px 0px 30px 0px;
+    text-align: left;
 }
 
 .synopsis__summary-title {
     margin: 30px 0px 30px 0px;
+    text-align: left;
 }
+
+.snyopsis__container p{
+    text-align: left;
 
 @media (max-width: 1285px) {
     .synopsis__container {
