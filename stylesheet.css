@@ -888,18 +888,10 @@ main {
     animation: slideInLeft 2s ease forwards;
 }
 
-.awards__block--right {
-    animation: slideInRight 2s ease forwards;
-}
-
 .awards__block--left:nth-child(odd),
-.awards__block--right:nth-child(odd) {
-    animation-delay: 0.1s; 
 }
 
 .awards__block--left:nth-child(even),
-.awards__block--right:nth-child(even) {
-    animation-delay: 0.2s; 
 }
 
 .awards__image {
