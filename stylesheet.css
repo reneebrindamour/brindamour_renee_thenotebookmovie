@@ -853,8 +853,13 @@ main {
     text-align: left;
     border-bottom: #283c46 solid 2px;
     padding: 50px 50px;
+   
+.awards__block--right {
+    flex-direction: row-reverse; 
+    text-align: left;
+    border-bottom: #283c46 solid 2px;
+    padding: 50px 50px;
 }
-
 
 @keyframes slideInLeft {
     from {
@@ -866,16 +871,47 @@ main {
         opacity: 1;
     }
 }
+    
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+    
+}
+.awards__block--right {
+    animation: slideInRight 2s ease forwards;
+}
 .awards__block--left {
     animation: slideInLeft 2s ease forwards;
 }
 
 .awards__block--left:nth-child(odd),
+.awards__block--right:nth-child(odd) {
+    animation-delay: 0.1s; 
 }
 
 .awards__block--left:nth-child(even),
+.awards__block--right:nth-child(even) {
+    animation-delay: 0.2s; 
 }
+
 
 .awards__image {
     flex: 1;
